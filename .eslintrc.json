@@ -1,0 +1,36 @@
+{
+   "parser": "babel-eslint",
+   "env": {
+      "es6": true,
+      "node": true,
+      "jest": true
+   },
+   "plugins": ["jest"],
+   "extends": ["eslint:recommended", "plugin:jest/recommended"],
+   "parserOptions": {
+      "ecmaFeatures": {
+         "experimentalObjectRestSpread": true,
+         "jsx": true,
+         "experimentalDecorators": true
+      },
+      "sourceType": "module"
+   },
+   "rules": {
+      "jest/no-disabled-tests": "warn",
+      "jest/no-focused-tests": "error",
+      "jest/no-identical-title": "error",
+      "jest/valid-expect": "error",
+
+      "max-len": [2, { "code": 100 }],
+      "object-curly-spacing": [2, "always"],
+      "array-bracket-spacing": [2, "always", { "objectsInArrays": false, "arraysInArrays": false }],
+      "no-console": 0,
+      "no-debugger": 0,
+      "react/display-name": 0,
+      "react/no-unescaped-entities": 0,
+      "indent": ["error", 3, { "SwitchCase": 1 }],
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "single"],
+      "semi": ["error", "always"]
+   }
+}
