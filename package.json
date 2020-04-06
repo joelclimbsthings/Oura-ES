@@ -17,8 +17,8 @@
     "simple-oauth2": "^2.2.1"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
-    "eslint-plugin-jest": "^22.6.4"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.8.2"
   }
 }
